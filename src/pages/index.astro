@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Restaurante from '../components/vue/Restaurante.vue';
+---
+
+<Layout title="Welcome to Astro.">
+	<Restaurante client:load/>
+</Layout>
+
